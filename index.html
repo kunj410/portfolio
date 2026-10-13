@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of a Front-End Developer showcasing projects, skills, and contact information.">
+    <title>Developer Portfolio | Web Developer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Step 3 & 4: Header & Accessible Navigation -->
+    <header>
+        <h1>John Doe</h1>
+        <nav role="navigation" aria-label="Main Navigation">
+            <ul>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Step 3: About Me Section -->
+        <section id="about-me">
+            <h2>About Me</h2>
+            <p>Welcome! I am a passionate front-end web developer focused on building clean, accessible, and responsive websites using modern web standards and AI tools like GitHub Copilot.</p>
+        </section>
+
+        <!-- Step 3 & 4: Projects Section with Semantic Tags & Alt Text -->
+        <section id="projects">
+            <h2>Projects</h2>
+            
+            <article>
+                <h3>E-Commerce Web Application</h3>
+                <figure>
+                    <img src="https://via.placeholder.com/300x200" alt="Screenshot of the interactive E-Commerce web application interface showing product listings and shopping cart">
+                    <figcaption>Interactive product store built with HTML, CSS, and JavaScript.</figcaption>
+                </figure>
+                <p>A full-featured shopping platform featuring interactive filtering, dynamic cart management, and seamless checkout design.</p>
+            </article>
+
+            <article>
+                <h3>Task Management Dashboard</h3>
+                <figure>
+                    <img src="https://via.placeholder.com/300x200" alt="Screenshot of a productivity dashboard displaying organized project cards and progress trackers">
+                    <figcaption>Productivity dashboard application for tracking daily developer goals.</figcaption>
+                </figure>
+                <p>A intuitive task management tool with drag-and-drop capability and real-time status tracking.</p>
+            </article>
+        </section>
+
+        <!-- Step 3: Skills Section -->
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML5 & Semantic Markup</li>
+                <li>CSS3 & Responsive Web Design</li>
+                <li>JavaScript (ES6+)</li>
+                <li>Git & GitHub Version Control</li>
+                <li>Web Accessibility (WCAG & ARIA)</li>
+                <li>AI-Assisted Development (GitHub Copilot)</li>
+            </ul>
+        </section>
+
+        <!-- Step 3 & 4: Accessible Contact Form -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form action="#" method="post">
+                <div>
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" required aria-required="true">
+                </div>
+
+                <div>
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required aria-required="true">
+                </div>
+
+                <div>
+                    <label for="message">Your Message:</label>
+                    <textarea id="message" name="message" rows="5" required aria-required="true"></textarea>
+                </div>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Step 3: Footer Section -->
+    <footer>
+        <p>&copy; 2026 John Doe. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
